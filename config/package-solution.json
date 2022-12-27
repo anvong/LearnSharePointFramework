@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hello-world-web-part-client-side-solution",
+    "id": "95e8a6e1-a1a9-4b60-be4a-323dae161a2a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "hello-world-web-part description"
+      },
+      "longDescription": {
+        "default": "hello-world-web-part description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "hello-world-web-part Feature",
+        "description": "The feature that activates elements of the hello-world-web-part solution.",
+        "id": "e06572a4-aa06-4f9b-979b-cbe8b796dd2c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hello-world-web-part.sppkg"
+  }
+}
